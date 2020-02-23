@@ -2,4 +2,15 @@
 layout: default
 title: Home
 ---
-<h1>Hello World!</h1>
+<h1>Übersicht</h1>
+
+{% include overview.html %}
+
+<div class="alert alert-info" style="margin-top:20px">
+  <strong>!!!Work in progress!!!</strong>
+</div>
+
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}" class="text-dark">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}

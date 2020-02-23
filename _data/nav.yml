@@ -1,0 +1,13 @@
+- name: Home
+  link: /
+  desc: >
+    Hier befindest du dich tatsächlich genau in diesem Moment bereits.
+- name: whoami
+  link: /whoami.html
+  desc: >
+    Hier findest du (zukünftig) eine Vorstellung meiner Person.
+- name: Kinobesuche
+  link: /kinobesuche.html
+  desc: >
+    Hier findest du den ein oder anderen Film (einschließlich Bewertung), den
+    ich im Kino angesehen habe.
