@@ -6,9 +6,7 @@ title: Home
 
 {% include overview.html %}
 
-<div class="alert alert-info" style="margin-top:20px">
-  <strong>!!!Work in progress!!!</strong>
-</div>
+{% include wip.html %}
 
 {% for post in site.posts %}
   <h2><a href="{{ post.url }}" class="text-dark">{{ post.title }}</a></h2>
